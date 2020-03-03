@@ -1,0 +1,17 @@
+{
+    "name": "aut-usermanagement",
+    "version": "1.0.0",
+    "description": "Automation Test User Management sample",
+    "scripts": {
+        "test": "mocha test/usermanagement/run-usermanagement-suites.js --timeout 300000"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "lodash": "^4.17.15",
+        "puppeteer": "^2.1.1",
+        "chai": "^4.2.0",
+        "mocha": "^7.1.0"
+    },
+    "author": "Lap Tran",
+    "license": "ISC"
+}

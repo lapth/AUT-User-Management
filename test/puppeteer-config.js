@@ -1,8 +1,8 @@
 const puppeteerConfig = {
     // Automation detail config
-    "headless" : false,
-    "waitUntil": "networkidle0",
-    "slowMo": 100,
+    "headless" : false, // Show Browser or not
+    "waitUntil": "networkidle0", // Wait for page loaded done
+    "slowMo": 100,  // Delay, in PRO mode should be zero
     "viewWidth": 0,
     "viewHeight": 0,
     

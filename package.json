@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Automation Test User Management sample",
     "scripts": {
-        "test": "mocha test/usermanagement/run-usermanagement-suites.js --timeout 300000"
+        "test": "mocha --exit test/usermanagement/run-usermanagement-suites.js --timeout 300000"
     },
     "dependencies": {},
     "devDependencies": {
